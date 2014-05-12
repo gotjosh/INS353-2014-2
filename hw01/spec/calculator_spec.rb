@@ -49,7 +49,7 @@ describe Calculator do
     end
     context "with incorrect params" do
       it "should multiply two numbers" do
-        expect {@calculator.add('string', true)}.to raise_error TypeError
+        expect {@calculator.mult('string', true)}.to raise_error TypeError
       end
     end
   end
