@@ -10,8 +10,7 @@ class Calculator
   end
 
   def mult num_1,num_2
-    raise TypeError unless num_1.is_a? Numeric
-    raise TypeError unless num_2.is_a? Numeric
+    raise TypeError unless num_1.is_a? Numeric and num_2.is_a? Numeric
     num_1*num_2
   end
 
