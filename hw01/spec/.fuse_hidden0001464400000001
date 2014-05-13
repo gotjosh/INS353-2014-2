@@ -10,8 +10,6 @@ class Calculator
   end
 
   def mult num_1,num_2
-    raise TypeError unless num_1.is_a? Numeric
-    raise TypeError unless num_2.is_a? Numeric
     num_1*num_2
   end
 
@@ -42,12 +40,12 @@ describe Calculator do
     context "with correct params" do
       it "should multiply two numbers" do
         expect(@calculator.mult(5,3)).to eql(15)
+        expect(@calculator.mult(5,4,10)).to eql(200)
       end
     end
     context "with incorrect params" do
-      it "should throw an error" do
+      it "should multiply two numbers" do
         expect {@calculator.mult('string', true)}.to raise_error TypeError
-        expect {@calculator.mult('string', 2)}.to raise_error TypeError
       end
     end
   end
