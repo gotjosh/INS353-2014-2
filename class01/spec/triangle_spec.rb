@@ -35,16 +35,16 @@ class Triangle
   end
 
   def illegal?
-    raise TriangleError unless violates_inequality? or impossible_length_side?
+    raise TriangleError if violates_inequality? or impossible_length_side?
     raise TriangleError unless @a.is_a? Numeric and @b.is_a? Numeric and @c.is_a? Numeric
   end
 
   def violates_inequality?
-    if @a+@b > @c
+    if !(@a+@b > @c)
       true
-    elsif @b+@c > @a
+    elsif !(@b+@c > @a)
       true
-    elsif @c+@a > @b
+    elsif !(@c+@a > @b)
       true
     end
   end
