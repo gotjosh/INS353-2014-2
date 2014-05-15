@@ -1,3 +1,13 @@
+# Created by http://www.gitignore.io
+
+### Linux ###
+*~
+.fuse*
+# KDE directory preferences
+.directory
+
+
+### Ruby ###
 *.gem
 *.rbc
 /.config
@@ -32,3 +42,6 @@ build/
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
+
+
+#!! ERROR: rspec is undefined. Use list command to see defined gitignore types !!#
