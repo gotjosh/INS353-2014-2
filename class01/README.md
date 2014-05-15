@@ -21,7 +21,7 @@ class Triangle
   end
 
   def kind
-  end
+  endgit@github.com:gotjosh/INS353-2014-2.git
 
   private
 
