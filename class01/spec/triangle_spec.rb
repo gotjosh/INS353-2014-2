@@ -40,6 +40,13 @@ class Triangle
   end
 
   def violates_inequality?
+    if !@a+@b > @c
+      true
+    elsif !@b+@c > @a
+      true
+    elsif !@c+@a > @b
+      true
+
 
   end
 
