@@ -8,11 +8,11 @@ In order to meet with the requirements we'll need to build 2 simple classes.
 
 The ```Team``` class will allow us manage players and will allow us to:
 
-- [] Set a Team Name
-- [] Add players to the team
-- [] Remove players from the team
-- [] Output all the players from team
-- [] Allow us to filter players by position
+- Set a Team Name
+- Add players to the team
+- Remove players from the team
+- Output all the players from team
+- Allow us to filter players by position
 
 ```ruby
 class Team
@@ -31,8 +31,8 @@ end
 
 The ```Player``` class will allow us to create players by:
 
-- [] Allow us to set a player's name/position.
-- [] Output a player's name/position seperated by a ``` - ```. IE: ```Jose Gomez - SS```
+- Allow us to set a player's name/position.
+- Output a player's name/position seperated by a ``` - ```. IE: ```Jose Gomez - SS```
 
 The Player
 ```ruby
