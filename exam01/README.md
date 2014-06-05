@@ -7,11 +7,11 @@ Gabriel wants to have some sort of class structure to manage his users and posts
 
 ### The funcionalities for the ```User``` class are the following:
 
-- It should receive an username when initialized.
+- It should receive an username and have N amount of ```Post```s when initialized.
 - It should have ```#add_post``` which accepts a Date of publication, Text and Title.
-- It should have ```#posts``` which returns an ```Array``` of the blogs we have added in reverse chronological order. (Newest first).
+- It should have ```#posts``` which returns an ```Array``` of the posts we have added; in reverse chronological order. (Newest first).
 - It should have ```#list``` which outputs all the posts using ```#display_entry```.
-- It should have ```#find_post_by_title``` which accepts a Blog's Title and returns a ```Post```. (First one if there are multiple with the same name)
+- It should have ```#find_post_by_title``` which accepts a post's Title and returns a ```Post```. (First one if there are multiple with the same name)
 
 ### The functionalities for the ```Post``` class are the following:
 
