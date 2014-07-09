@@ -1,4 +1,27 @@
 Rails.application.routes.draw do
+
+  resources :orders
+
+  root 'home#index'
+
+
+  # Create
+  # Read
+  # Update
+  # Delete
+  #
+  resources :products, except: [:index] do
+
+    member do
+      get '/list/:price', to: 'products#list', as: 'my_path'
+    end
+
+    collection do
+      get '/lista', to: 'products#list'
+    end
+
+  end
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
