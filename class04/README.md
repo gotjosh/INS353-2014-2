@@ -12,8 +12,8 @@ It should display a list of all the students with:
 - Student Name.
 - Student University ID.
 - Student Average Grade Score.
-- Link to delete a student entry.
-- Link to edit a student information.
+- Link to delete a student entry. (If a student is deleted grades are also gone)
+- Link to edit a student grades.
 - Sorted by Student Name (A-Z).
 
 ## Creating/Edit Students (3 points)
