@@ -11,7 +11,7 @@ There should be two entities:
 It should display a list of all the teachers with:
 
 - Teacher Name.
-- Teacher ID.
+- Teacher Code.
 - Amount active of subjects he/she owns.
 - Link to delete a teacher entry. (Along with his subjects)
 - Link to edit a teacher information.
@@ -23,5 +23,5 @@ It should display a list of all the teachers with:
 It should allow the owner to edit/create with the following:
 
 - Create a teacher and create his subjects (6) in the same page.
-- Edit the subjects for a teacher while displaying it's current Name and ID. *(Teacher INFORMATION IS NOT EDITABLE)*
-- `Subject` should be composed of `Subject Name`, `Subject ID` and `Active`.
+- Edit the subjects for a teacher while displaying it's current Name and Code. *(Teacher INFORMATION IS NOT EDITABLE)*
+- `Subject` should be composed of `Subject Name`, `Subject Code` and `Active`.
